@@ -84,8 +84,7 @@ function setup()
 
 function draw() 
 { 
-  if(backgroundImg)
-  background(backgroundImg);
+  background("black");
   
   Engine.update(engine);
 
